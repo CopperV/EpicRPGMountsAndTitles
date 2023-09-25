@@ -1,0 +1,15 @@
+name: EpicRPGMountsAndTitles
+version: 1.0
+main: me.Vark123.EpicRPGMountsAndTitles.Main
+author: Vark123
+depend: [NBTAPI]
+api-version: 1.18
+
+libraries:
+  - io.github.rysefoxx.inventory:RyseInventory-Plugin:1.6.3
+
+commands:
+  rpgtitle:
+    aliases: [tytul, tytuly, rtitle]
+  rpgtitleadmin:
+    aliases: [rta]
