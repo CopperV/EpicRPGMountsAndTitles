@@ -4,6 +4,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import io.github.rysefoxx.inventory.plugin.pagination.InventoryManager;
 import lombok.Getter;
+import me.Vark123.EpicRPGMountsAndTitles.Placeholders.TitlePlaceholders;
 
 @Getter
 public class Main extends JavaPlugin {
@@ -23,6 +24,8 @@ public class Main extends JavaPlugin {
 
 		inventoryManager = new InventoryManager(inst);
 		inventoryManager.invoke();
+		
+		new TitlePlaceholders().register();
 	}
 
 	@Override
