@@ -108,7 +108,10 @@ public final class FileManager {
 			.forEach(file -> {
 				String nick = file.getName().replace(".yml", "");
 				YamlConfiguration fYml = YamlConfiguration.loadConfiguration(file);
+				System.out.println(nick);
 				OfflinePlayer offPlayer = Bukkit.getOfflinePlayer(nick);
+				if(offPlayer == null)
+					return;
 				String uid = offPlayer.getUniqueId().toString();
 				File file2 = new File(playerDir, uid+".yml");
 				if(file2.exists()) {
