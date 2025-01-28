@@ -36,7 +36,7 @@
 		<dependency>
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot</artifactId>
-			<version>1.18.2-R0.1-SNAPSHOT</version>
+			<version>1.21.1-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -46,14 +46,15 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>io.github.rysefoxx.inventory</groupId>
-			<artifactId>RyseInventory-Plugin</artifactId>
-			<version>1.6.5</version>
+			<groupId>me.Vark123.ArcholosRPG</groupId>
+			<artifactId>EpicInventory</artifactId>
+			<scope>provided</scope>
+			<version>1.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.26</version>
+			<version>1.18.36</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
